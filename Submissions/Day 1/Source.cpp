@@ -63,6 +63,10 @@ public:
 		for (int i = 0; i < length; ++i) word += symbols[i]->back_to_symbol();
 		return word;
 	}
+	~Word()
+	{
+		delete[] symbols;
+	}
 };
 
 class Phrase
@@ -84,7 +88,7 @@ public:
 			curr_sym = phrase[i];
 			if (curr_sym == ' ' || curr_sym == '\0')
 			{
-				words->push(new Word(word));
+				if (word.size()!=0) words->push(new Word(word));
 				word = "";
 				continue;
 			}
@@ -102,6 +106,7 @@ public:
 			cout << ' ' << words->front()->back_to_string();
 			words->pop();
 		}
+		cout << endl;
 	}
 };
 
