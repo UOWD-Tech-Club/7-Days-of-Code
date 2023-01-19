@@ -1,3 +1,5 @@
+// 19.01.2023 - 8054757 - Matvei Maslov
+// Question 1
 #include <iostream>
 #include <vector>
 using namespace std;
