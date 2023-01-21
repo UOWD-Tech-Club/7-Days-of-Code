@@ -8,25 +8,25 @@ using namespace std;
 * Also it is quite complicated, so it is fun to write.
 */
 
-class SplitedVector
+class SplittedVector
 {
 public:
 	vector<int>* arr;
 	vector<int>* toCompareWith;
-	SplitedVector* prev;
-	SplitedVector()
+	SplittedVector* prev;
+	SplittedVector()
 	{
 		arr = NULL;
 		toCompareWith = NULL;
 		prev = NULL;
 	}
-	SplitedVector(vector<int>* input, vector<int>* tocomparewith=NULL,SplitedVector* pre=NULL)
+	SplittedVector(vector<int>* input, vector<int>* tocomparewith=NULL,SplittedVector* pre=NULL)
 	{
 		arr = input;
 		toCompareWith = tocomparewith;
 		prev = pre;
 	}
-	~SplitedVector()
+	~SplittedVector()
 	{
 		arr = NULL;
 		toCompareWith = NULL;
@@ -34,7 +34,7 @@ public:
 	}
 };
 
-SplitedVector* splitArr(SplitedVector* array)
+SplittedVector* splitArr(SplittedVector* array)
 {
 	if (array->arr->size() > 1)
 	{
@@ -45,8 +45,8 @@ SplitedVector* splitArr(SplitedVector* array)
 			if (i < m) arr1->push_back(array->arr->data()[i]);
 			else arr2->push_back(array->arr->data()[i]);
 		}
-		splitArr(new SplitedVector(arr1,NULL,array));
-		splitArr(new SplitedVector(arr2,arr1,array));
+		splitArr(new SplittedVector(arr1,NULL,array));
+		splitArr(new SplittedVector(arr2,arr1,array));
 	}
 	if (!array->prev) return array;
 	if (array->toCompareWith)
@@ -69,7 +69,7 @@ SplitedVector* splitArr(SplitedVector* array)
 
 vector<int>* mergeSort(vector<int>* arr)
 {
-	return splitArr(new SplitedVector(arr))->arr;
+	return splitArr(new SplittedVector(arr))->arr;
 }
 
 int main()
