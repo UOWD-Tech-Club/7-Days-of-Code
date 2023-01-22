@@ -1,7 +1,9 @@
+# 22.01.2023 - 8054757 - Matvei Maslov
+# Question 2
 import random
 
-SPECIAL_SYMBOLS = [chr(i) for i in range(33, 48)] + [chr(i) for i in range(58, 65)] + [chr(i) for i in range(91, 97)] + [
-    chr(i) for i in range(123, 127)]
+SPECIAL_SYMBOLS = [chr(i) for i in range(33, 48)] + [chr(i) for i in range(58, 65)] + [
+    chr(i) for i in range(91, 97)] + [chr(i) for i in range(123, 127)]
 
 
 # print(''.join(SPECIAL_SYMBOLS))
