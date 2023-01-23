@@ -1,3 +1,7 @@
+## Day 4 (Pick any 1 Question to solve)
+### Question A: Create a simple "Choose Your Own Adventure" game where the user is presented with a series of choices and must navigate through a story based on those choices. You will be assessed on your creativity as well.
+### Question B: "Secure Password Generator" – Implement a program that generates a secure password. The program should use a combination of upper and lowercase letters, numbers, and special characters, and should generate a password that is at least 8 characters long.
+---
 ## Day 3 (Pick any 1 Question to solve)
 ### Question A: Implement any sorting algorithm in a language of your choice. Using an inbuilt sorter is obviously not allowed.
 ### Question B: "Password Strength Checker" – Implement a program that checks the strength of a password. The program should compute the strength of the password based on various factors such as length, the use of different character types, etc.
