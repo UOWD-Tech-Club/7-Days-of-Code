@@ -1,3 +1,7 @@
+## Day 6 (Pick any 1 Question to solve)
+### Question A: Implement a hash table data structure in a language of your choice.
+### Question B: Write a program that generates a crossword puzzle using a list of words provided by the user.
+---
 ## Day 5 (Pick any 1 Question to solve)
 ### Question A: Implement a stack data structure in a language of your choice.
 ### Question B: Implement a linked list data structure in the language of your choice.
