@@ -1,3 +1,7 @@
+## Day 5 (Pick any 1 Question to solve)
+### Question A: Implement a stack data structure in a language of your choice.
+### Question B: Implement a linked list data structure in the language of your choice.
+---
 ## Day 4 (Pick any 1 Question to solve)
 ### Question A: Create a simple "Choose Your Own Adventure" game where the user is presented with a series of choices and must navigate through a story based on those choices. You will be assessed on your creativity as well.
 ### Question B: "Secure Password Generator" – Implement a program that generates a secure password. The program should use a combination of upper and lowercase letters, numbers, and special characters, and should generate a password that is at least 8 characters long.
