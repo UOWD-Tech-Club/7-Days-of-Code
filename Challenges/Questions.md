@@ -1,3 +1,19 @@
+## Day 7 (Pick any 1 Question to solve)
+### Question A: Create a function that creates a box based on dimension n x m.
+Example of output of 5 x 3
+```
+/***\
+
+*   *
+
+\***/
+```
+### Question B: Create a function that tweaks letters by one forward (+1) or backwards (-1) according to an array.
+```
+function("apple", {0, 1, -1, 0, -1}) ➞ "aqold"
+// "p" + 1 => "q"; "p" - 1 => "o"; "e" - 1 => "d"
+```
+---
 ## Day 6 (Pick any 1 Question to solve)
 ### Question A: Implement a hash table data structure in a language of your choice.
 ### Question B: Write a program that generates a crossword puzzle using a list of words provided by the user.
