@@ -1,4 +1,5 @@
 # 7 Days of Coding
+## *The event has ended - this is now an archive of all the submissions*
 Welcome to the 7 Days of Coding event! This is a week-long online event designed to help you improve your coding skills. Each day, we will provide a new coding challenge for you to solve. 
 
 The difficulty level will increase as the day goes on, so be prepared to put your coding skills to the test!
